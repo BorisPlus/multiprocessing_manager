@@ -55,8 +55,8 @@ So data queue size is: 32
 
 ## Regards
 
-https://www.kite.com/python/docs/multiprocessing.managers.BaseManager
+Python3 https://docs.python.org/3/library/multiprocessing.html#multiprocessing.managers.BaseManager
 
-## What is idea
+## What is an idea
 
-You can push tasks (target key in `multiprocessing.Process`) to queue server, run task in poll with some business logic conditions.
+You can push task (target key in `multiprocessing.Process`) to queue server and run tasks at some poll with various dynamic business logic.
