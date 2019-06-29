@@ -59,4 +59,4 @@ Python3 https://docs.python.org/3/library/multiprocessing.html#multiprocessing.m
 
 ## What is an idea
 
-You can push task (target key in `multiprocessing.Process`) to queue server and run tasks at some poll with various dynamic business logic.
+I wanna push task to queue server and run this tasks at some poll with various dynamic business logic.
