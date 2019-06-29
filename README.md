@@ -4,14 +4,14 @@ Simple example of sharing data between different processes by Python3 `multiproc
 
 ## Example
 
-### Server
+### Dispatcher (as server side)
 
 Run server in terminal one:
 ```bash
 python3 server.py
 ```
 
-### Pusher
+### Pusher (as first client side)
 
 In terminal two run client, which push data to server queue:
 
@@ -37,7 +37,7 @@ New data push: 0.7469592286185259
 New data push: 0.9823676133264508
 ```
 
-### Checker
+### Checker (as second client side)
 
 In terminal three run client, which check size of server queue:
 
